@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    body {
+      background-color: rgb(0, 0, 0);
+      margin: 0;
+    }
+
+    #webgl {
+      pointer-events: none;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #css {
+      position: absolute;
+      top: 0;
+      left: 0;
+      pointer-events: auto;
+      z-index: -1;
+    }
+
+    #freecam-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      cursor: pointer;
+      font-family: monospace;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+    }
+
+    #freecam-toggle:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-BgS4q8q1.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BCr7s_Dk.css">
+</head>
+
+<body>
+  <div id="css"></div>
+  <div id="overlay"></div>
+  <div id="webgl"></div>
+  <button id="freecam-toggle">Toggle FreeCam</button>
+  
+</body>
+
+</html>

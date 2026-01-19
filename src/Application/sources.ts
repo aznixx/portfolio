@@ -1,0 +1,34 @@
+const sources: Resource[] = [
+    {
+        name: 'computerSetupModel',
+        type: 'gltfModel',
+        path: 'models/Computer/computer_setup.glb',
+    },
+    {
+        name: 'computerSetupTexture',
+        type: 'texture',
+        path: 'models/Computer/baked_computer.jpg',
+    },
+    {
+        name: 'environmentModel',
+        type: 'gltfModel',
+        path: 'models/World/environment.glb',
+    },
+    {
+        name: 'environmentTexture',
+        type: 'texture',
+        path: 'models/World/baked_environment.jpg',
+    },
+    {
+        name: 'monitorSmudgeTexture',
+        type: 'texture',
+        path: 'textures/monitor/layers/png/smudges.png',
+    },
+    {
+        name: 'monitorShadowTexture',
+        type: 'texture',
+        path: 'textures/monitor/layers/png/shadow.png',
+    },
+];
+
+export default sources;
